@@ -1,4 +1,4 @@
-package com.todoapp.presentation.todoList
+package com.todoapp.presentation.todoList.todoListAction
 
 sealed interface GetTodoListIntent {
     data object GetTodoList : GetTodoListIntent

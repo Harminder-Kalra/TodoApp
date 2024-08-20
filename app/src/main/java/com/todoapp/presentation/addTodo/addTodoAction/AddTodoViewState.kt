@@ -1,4 +1,4 @@
-package com.todoapp.presentation.addTodo
+package com.todoapp.presentation.addTodo.addTodoAction
 
 data class AddTodoViewState(
     val todoText: String = "",

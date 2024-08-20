@@ -1,4 +1,4 @@
-package com.todoapp.presentation.addTodo
+package com.todoapp.presentation.addTodo.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -21,6 +21,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
+import com.todoapp.presentation.addTodo.addTodoAction.AddTodoIntent
+import com.todoapp.presentation.addTodo.viewmodel.AddTodoViewModel
 
 @Composable
 fun AddTodoScreen(navController: NavController, viewModel: AddTodoViewModel = hiltViewModel()) {

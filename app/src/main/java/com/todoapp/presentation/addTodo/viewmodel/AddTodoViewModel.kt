@@ -1,9 +1,11 @@
-package com.todoapp.presentation.addTodo
+package com.todoapp.presentation.addTodo.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.todoapp.data.local.TodoItem
 import com.todoapp.domain.use_case.addTodo.AddTodoUseCases
+import com.todoapp.presentation.addTodo.addTodoAction.AddTodoIntent
+import com.todoapp.presentation.addTodo.addTodoAction.AddTodoViewState
 import com.todoapp.utils.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
